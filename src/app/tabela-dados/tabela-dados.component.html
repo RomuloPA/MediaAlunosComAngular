@@ -14,8 +14,14 @@
         <td id="nomes">{{ dado.nome }}</td>
         <td id="notas"><input type="text" [(ngModel)]="dado.nota1" (input)="calcularMedia(dado)" size="3"></td>
         <td id="notas"><input type="text" [(ngModel)]="dado.nota2" (input)="calcularMedia(dado)" size="3"></td>
-        <td id="medias">{{ dado.media }}</td>
-        <td id="status">{{ dado.status }}</td>
+        <td id="medias" *ngIf="dado.nota1 !== null && dado.nota2 !== null">{{ dado.media }}</td>
+        <td id="medias" *ngIf="dado.nota1 === null || dado.nota2 === null"></td>
+        <td id="status" *ngIf="dado.nota1 !== null && dado.nota2 !== null" [ngClass]="{
+          'aprovado': dado.status === 'Aprovado',
+          'recuperacao': dado.status === 'Recuperação',
+          'reprovado': dado.status === 'Reprovado'
+        }">{{ dado.status }}</td>
+        <td id="status" *ngIf="dado.nota1 === null || dado.nota2 === null"></td>
       </tr>
     </tbody>
 </table>

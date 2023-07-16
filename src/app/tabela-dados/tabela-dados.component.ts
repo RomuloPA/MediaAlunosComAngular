@@ -22,7 +22,7 @@ export class TabelaDadosComponent {
   calcularMedia(dado: any) {
     const nota1 = parseFloat(dado.nota1);
     const nota2 = parseFloat(dado.nota2);
-    dado.media = (nota1 + nota2) / 2;
+    dado.media = ((nota1 + nota2) / 2).toFixed(1); 
     
     if (dado.media >= 7) {
       dado.status = "Aprovado";

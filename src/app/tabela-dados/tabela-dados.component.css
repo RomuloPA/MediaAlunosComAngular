@@ -11,7 +11,7 @@ table {
 }
 
 caption {
-    background-color: rgba(197, 245, 3, 0.681);
+    background-color: rgb(240, 255, 37);
     font-size: 2rem;
     height: 2rem;
     padding: 1rem;
@@ -22,13 +22,13 @@ caption {
 }
 
 thead {
-    background-color: rgba(197, 245, 3, 0.351);
+    background-color: rgb(244, 250, 170);
     font-size: 1.5rem;
     height: 3rem;
 }
 
 tbody {
-    background-color: rgba(197, 245, 3, 0.351);
+    background-color: rgb(244, 250, 170);
     font-size: 1.5rem;
 }
 
@@ -74,3 +74,15 @@ tbody {
  #status {
     text-align: center;
  }
+
+ .aprovado {
+    background-color: green;
+  }
+  
+  .recuperacao {
+    background-color: yellow;
+  }
+  
+  .reprovado {
+    background-color: red;
+  }
