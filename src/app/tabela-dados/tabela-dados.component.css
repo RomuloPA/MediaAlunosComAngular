@@ -1,0 +1,76 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+    border: 0.15rem solid #000;
+    border-collapse: collapse;
+    box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.7); 
+}
+
+caption {
+    background-color: rgba(197, 245, 3, 0.681);
+    font-size: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    border-left: 0.15rem solid #000;
+    border-top: 0.15rem solid #000;
+    border-right: 0.15rem solid #000;
+    box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.7); 
+}
+
+thead {
+    background-color: rgba(197, 245, 3, 0.351);
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+tbody {
+    background-color: rgba(197, 245, 3, 0.351);
+    font-size: 1.5rem;
+}
+
+#coluna1 {
+    width: 20rem;
+}
+
+#coluna2 {
+    width: 6rem;
+}
+
+ #coluna3 {
+    width: 6rem;
+ }
+
+ #coluna4 {
+    width: 6rem;
+ }
+
+ #coluna5 {
+    width: 10rem;
+ }
+
+ #nomes {
+    padding-left: 0.8rem;
+ }
+
+ #notas {
+    text-align: center;
+    padding: 0.4rem;  
+ }
+
+ input {
+    height: 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+ }
+
+ #medias {
+    text-align: center;
+ }
+
+ #status {
+    text-align: center;
+ }

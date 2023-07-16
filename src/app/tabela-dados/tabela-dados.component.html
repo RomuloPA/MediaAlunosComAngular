@@ -1,21 +1,21 @@
 <table>
-    <caption>Planilha de notas, médias e status dos alunos do 1ºA</caption>
+    <caption>notas, médias e status dos alunos do 1ºA</caption>
     <thead>
       <tr>
-        <th>Nome</th>
-        <th>Nota 1</th>
-        <th>Nota 2</th>
-        <th>Média</th>
-        <th>Status</th>
+        <th id="coluna1">Nome</th>
+        <th id="coluna2">Nota 1</th>
+        <th id="coluna3">Nota 2</th>
+        <th id="coluna4">Média</th>
+        <th id="coluna5">Status</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let dado of dados">
-        <td>{{ dado.nome }}</td>
-        <td><input type="text" [(ngModel)]="dado.nota1" (input)="calcularMedia(dado)"></td>
-        <td><input type="text" [(ngModel)]="dado.nota2" (input)="calcularMedia(dado)"></td>
-        <td>{{ dado.media }}</td>
-        <td>{{ dado.status }}</td>
+        <td id="nomes">{{ dado.nome }}</td>
+        <td id="notas"><input type="text" [(ngModel)]="dado.nota1" (input)="calcularMedia(dado)" size="3"></td>
+        <td id="notas"><input type="text" [(ngModel)]="dado.nota2" (input)="calcularMedia(dado)" size="3"></td>
+        <td id="medias">{{ dado.media }}</td>
+        <td id="status">{{ dado.status }}</td>
       </tr>
     </tbody>
 </table>

@@ -7,9 +7,16 @@ import { Component } from '@angular/core';
 })
 export class TabelaDadosComponent {
   dados = [
-    { nome: "João", nota1: null, nota2: null, media: null, status: null },
-    { nome: "Maria", nota1: null, nota2: null, media: null, status: null },
-    { nome: "Pedro", nota1: null, nota2: null, media: null, status: null }
+    { nome: "Ana Pereira", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Gabriel Fernandes", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Guilherme Costa", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Isabela Rodrigues", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Laura Santos", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Lucas Silva", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Maria Oliveira", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Matheus Almeida", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Pedro Carvalho", nota1: null, nota2: null, media: null, status: null },
+    { nome: "Sofia Mendes", nota1: null, nota2: null, media: null, status: null }
   ];
 
   calcularMedia(dado: any) {
