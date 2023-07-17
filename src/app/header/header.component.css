@@ -1,0 +1,32 @@
+* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    height: 6rem;
+    margin-top: -3rem;
+    margin-left: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-left: 16.5rem;
+    margin-top: 0.5rem;
+}
+
+span {
+    margin-top: -0.7rem;
+}
+
+.letraA {
+    color: red;
+  }
+  
+  .letraB {
+    color: rgb(101, 150, 224);
+  }
+  
+  .letraC {
+    color: rgb(255, 166, 0);
+  }
