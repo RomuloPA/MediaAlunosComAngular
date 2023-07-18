@@ -1,3 +1,27 @@
+# Página web com as notas, médias e status dos alunos
+
+🎉 Bem-vindo(a) ao meu projeto de uma página web de uma escola fictícia onde é visualizada uma tabela para que o professor lance as notas dos alunos de uma sala em especifico, e é retornada suas respectivas médias e status de aprovação. O projeto foi desenvolvido com o framework Angular, utilizando as linguagens de programação HTML, CSS e TypeScript, com o objetivo de desenvolver meu primeiro projeto com o Angular. 
+
+
+## Funcionalidades
+- [x] Tabela de para lançamento das notas;
+- [x] Cálculo e visualização da média;
+- [x] Método para a definição e visualização do status de aprovação.
+
+## Tecnologias
+- HTML
+- CSS
+- TypeScript
+- Angular
+
+[![Alt text](https://img.youtube.com/vi/V270loGVewU/0.jpg)](https://www.youtube.com/watch?v=V270loGVewU)
+
+
+
+
+
+# Readme criado automaticamente pelo Angular
+
 # MediaNotaAlunos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
